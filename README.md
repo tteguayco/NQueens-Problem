@@ -1,6 +1,6 @@
-Problema de las ocho reinas
+Problema de las n reinas
 ---------------------------
 
-Se resuelve el problema de las ocho reinas mostrando las soluciones en una simple interfaz gráfica. El código fuente queda preparado para resolver el problema para N reinas.
+Se resuelve el problema de las n mostrando las soluciones en una simple interfaz gráfica.
 
 ![alt tag](http://fotos.subefotos.com/daae2d75b4308842a80d21e226d066a3o.png)
