@@ -3,8 +3,8 @@ package queens8;
 import javax.swing.JFrame;
 
 public class Main {
-	private static final int FRAME_WIDTH = 500;
-	private static final int FRAME_HEIGHT = 500;
+	private static final int FRAME_WIDTH = 600;
+	private static final int FRAME_HEIGHT = 540;
 	
 	public static void main(String[] args) {
 		QueensFrame frame = new QueensFrame();

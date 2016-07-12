@@ -10,6 +10,8 @@ public class SolutionsGenerator {
 	private Board board;
 	private int queensGoal;
 	private ArrayList<Board> solutions;
+	private Clock clock;
+	private String timeSpent;
 	
 	public SolutionsGenerator(int nQueens) {
 		board = new Board(nQueens);
@@ -30,11 +32,9 @@ public class SolutionsGenerator {
 	 * @param nQueens
 	 */
 	public void solveR(Board board, int row) {
-		//System.out.println(board);
 		// Caso base: llegamos a ocho reinas, guardamos la solución
 		if (board.getNumOfQueens() == getQueensGoal()) {
 			if (board.getNumOfQueens() == getQueensGoal()) {
-				//System.out.println("caso base");
 				getSolutions().add(board);
 			}
 			
